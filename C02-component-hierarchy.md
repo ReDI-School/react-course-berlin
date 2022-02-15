@@ -24,7 +24,7 @@ There’s something satisfying about building a component from a drawing: you ca
 
 Here is the sketch we’ll be building from:
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a905a4f5-7759-400f-be5b-2be0813a6157/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a905a4f5-7759-400f-be5b-2be0813a6157/Untitled.png)
+![image](https://user-images.githubusercontent.com/51905839/154100134-ec5f1d9b-ad3b-40ab-abbf-ba9a65cb1db6.png)
 
 It’s rough on purpose: you don’t need a beautiful mockup. A simple pen-and-paper sketch works fine.
 
@@ -38,13 +38,13 @@ Another strategy is to make every “thing” a component. Things like buttons, 
 
 Try it yourself, then compare with this:
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/bc66c100-6c76-4249-8bd6-c619d843cba6/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/bc66c100-6c76-4249-8bd6-c619d843cba6/Untitled.png)
+![image](https://user-images.githubusercontent.com/51905839/154100166-7ce10b84-d130-4e50-893e-c0f6968becf0.png)
 
 **3. Name the Components**
 
 Now that we’ve broken the sketch into pieces, we can give them names.
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/af0d5399-f892-421f-9bea-27b510c7288e/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/af0d5399-f892-421f-9bea-27b510c7288e/Untitled.png)
+![image](https://user-images.githubusercontent.com/51905839/154100203-9be05e44-7b9d-470d-98ed-e8e0a17008c4.png)
 
 Each of these named items will become a component, with `Tweet` being the “parent” that groups them all together. The hierarchy looks like this:
 
@@ -92,7 +92,7 @@ The other advantage of bottom-up development in a rewrite is that it fits nicely
 
 Here’s our blueprint again:
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/cbd65f6a-b1fd-4c3e-a825-f765a767e7c4/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/cbd65f6a-b1fd-4c3e-a825-f765a767e7c4/Untitled.png)
+![image](https://user-images.githubusercontent.com/51905839/154100246-7a5fd155-97f9-48a9-a138-4b1963ccc7f1.png)
 
 We’ll be building a plain static tweet in this section, starting with the top-level component, `Tweet`.
 
@@ -158,7 +158,7 @@ $ npm start
 
 And the page should render something like this:
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/79d1ee34-cee2-4aa8-b5e0-c5599e278371/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/79d1ee34-cee2-4aa8-b5e0-c5599e278371/Untitled.png)
+![image](https://user-images.githubusercontent.com/51905839/154100334-c1c431cd-7586-499a-a5cf-b9f31b9794b0.png)
 
 This is nothing you haven’t seen before. It’s a simple component, with the addition of a special `className` attribute (which React calls a “prop”, short for property).
 
@@ -214,7 +214,7 @@ Now just give `Avatar` some style, in `index.css`:
 
 It’s getting better:
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/4865c9e2-d6fc-4f1a-bdbc-751ed4ba3322/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/4865c9e2-d6fc-4f1a-bdbc-751ed4ba3322/Untitled.png)
+![image](https://user-images.githubusercontent.com/51905839/154100388-8c522d3c-e93e-4b98-ae78-c130533cf8d8.png)
 
 Next we’ll create two more components, the `Message` and `Author`:
 
@@ -267,7 +267,7 @@ It’s rendering now, but it’s ugly. Spruce it up with some CSS for the name a
 }
 ```
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/4e459055-b653-49df-af45-4bcef5735a63/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/4e459055-b653-49df-af45-4bcef5735a63/Untitled.png)
+![image](https://user-images.githubusercontent.com/51905839/154100458-3a0de717-07dc-4f32-9e6f-69d07754db6f.png)
 
 It’s looking more like a real tweet now!
 
@@ -390,7 +390,7 @@ Finally, add a few more styles to cover the time and buttons:
 
 And here we have a fairly respectable-looking tweet!
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d3b39534-2e32-44ff-b436-61ecc197fc34/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d3b39534-2e32-44ff-b436-61ecc197fc34/Untitled.png)
+![image](https://user-images.githubusercontent.com/51905839/154100542-1c5630fa-d27c-492d-9271-76ae7967d7c0.png)
 
 You can customize it to your heart’s content: change the name, the handle, the message, even the Gravatar icon. Pretty sweet, right?
 
