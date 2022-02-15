@@ -1,0 +1,2 @@
+- 🖥  [Slides](https://docs.google.com/presentation/d/1htKCGdroUouI6CP_OsFd0LPuijGOQFFHPe9j80F0Gdc/edit?usp=sharing)
+- 📝 [Very detailed yet simple explanation of imports and exports in JS](https://javascript.info/import-export)
