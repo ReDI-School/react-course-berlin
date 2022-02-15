@@ -9,7 +9,7 @@ There’s a special prop we haven’t talked about yet: it’s called `children
 
 Let’s say you wanted to make a reusable `IconButton` component that looked something like this:
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ac4bc225-101f-4126-8d0a-3e685b605e5f/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ac4bc225-101f-4126-8d0a-3e685b605e5f/Untitled.png)
+![image](https://user-images.githubusercontent.com/51905839/154099014-a58db5db-99e9-4120-8109-87838da40732.png)
 
 You might imagine using it like this:
 
@@ -33,7 +33,7 @@ function IconButton() {
 
 The rendered component would be a button with an icon, and *no text*. It would look like this:
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/12d3d00c-5bdf-46af-8683-9f7cfbd49d3b/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/12d3d00c-5bdf-46af-8683-9f7cfbd49d3b/Untitled.png)
+![image](https://user-images.githubusercontent.com/51905839/154099071-09d8f3fc-33e4-47b2-8117-dc26e4e8fbb6.png)
 
 With a small tweak – accepting the `children` prop and then inserting it after the icon – the passed-in children will be rendered where we want them:
 
@@ -150,7 +150,7 @@ Now that you’ve seen how the `children` prop works, here are some exercises 
 
 1. Make a component to display an “error box” that looks like this:
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ee3f911e-1000-4625-9567-40f61d1828e1/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ee3f911e-1000-4625-9567-40f61d1828e1/Untitled.png)
+![image](https://user-images.githubusercontent.com/51905839/154099140-d9f1b2d4-c4bb-4150-b802-b7a75fb055d3.png)
 
 Invoking the component should look like this:
 
@@ -168,7 +168,7 @@ Use the `children` prop to place the text properly. The image above uses [Boo
     3. Create a component named `Head` that takes a `number` prop, and renders the first [number] children. e.g. If you pass number=3, and 7 child elements, it will render the first 3.
     4. Create a component named `Tail` that takes a `number` and renders the last N children.
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/efcbb0dc-facf-4038-8779-630612a18542/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/efcbb0dc-facf-4038-8779-630612a18542/Untitled.png)
+![image](https://user-images.githubusercontent.com/51905839/154099191-797a73b5-db75-4667-86d3-ee5a9e7eb34a.png))
 
 Feel free to use Bootstrap’s modal styles, or create your own.
 
@@ -189,13 +189,13 @@ Just as we did with the Tweet example, we’ll follow a 4-step process:
 
 Here’s a screenshot of the GitHub UI which we’ll be modeling our app after:
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/2715ba76-56dd-4e29-a98f-d10816261cff/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/2715ba76-56dd-4e29-a98f-d10816261cff/Untitled.png)
+![image](https://user-images.githubusercontent.com/51905839/154099242-e311392e-bf99-4735-be8b-9b28c210d339.png)
 
 ### Break It Into Components
 
 The first step is to outline or highlight all the components in this screenshot. Basically what we’re doing here is drawing boxes around the elements in the design, be they `div`s or some other HTML building block.
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c2eee07b-4099-4c64-a842-1dcde1ffd893/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c2eee07b-4099-4c64-a842-1dcde1ffd893/Untitled.png)
+![image](https://user-images.githubusercontent.com/51905839/154099293-0e76ec65-7459-47dd-8c50-faaabd0bce4c.png)
 
 ### Name the Components
 
@@ -307,7 +307,7 @@ const testFiles = [
 
 It should look like this, nice and ugly:
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/be6bcf0e-8125-4859-a319-d77409b3ad9c/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/be6bcf0e-8125-4859-a319-d77409b3ad9c/Untitled.png)
+![image](https://user-images.githubusercontent.com/51905839/154099395-725537cd-2644-46a2-86e4-0fe90f1f3a27.png)
 
 Mapping over an array like this is how you render lists of things in React.
 
@@ -383,7 +383,7 @@ We’ll also add some CSS to make it more presentable. Open up `src/index.css`�
 
 Don’t forget to add the line to import the CSS file if you haven’t already (`import './index.css'`).
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/2204c931-b5e2-46fa-b9d0-dcbc5d231ecf/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/2204c931-b5e2-46fa-b9d0-dcbc5d231ecf/Untitled.png)
+![image](https://user-images.githubusercontent.com/51905839/154099534-dae7f473-3095-48e4-80a5-b8b5ab094e8a.png)
 
 Now that we’ve got some basic structure in place, we can add the remaining components to the row component: `FileIcon`, `FileName`, `CommitMessage`, and `Time`.
 
@@ -441,7 +441,7 @@ Now let’s add some CSS and see how it looks.
 }
 ```
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/418130c6-a57d-4f6a-9dda-1eed436e14e8/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/418130c6-a57d-4f6a-9dda-1eed436e14e8/Untitled.png)
+![image](https://user-images.githubusercontent.com/51905839/154099615-5aef7a66-d1cd-4acb-bd4f-ed9ab004a253.png)
 
 ### CommitMessage
 
@@ -470,7 +470,7 @@ And spruce it up with some style:
 }
 ```
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/6502e2e2-0c03-418b-b9e0-1d44b15b9da3/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/6502e2e2-0c03-418b-b9e0-1d44b15b9da3/Untitled.png)
+![image](https://user-images.githubusercontent.com/51905839/154099725-b0a007f6-d794-46a3-b36d-c2a116adb726.png)
 
 Notice that we’re passing in the commit itself instead of the whole file object. `CommitMessage`doesn’t need to know anything about files, and the fewer components that have knowledge of data structures, the better.
 
@@ -544,7 +544,7 @@ Add a little bit of styling…
 
 And it works!
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/04fa38ac-7554-4142-8c71-aedb0140ce03/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/04fa38ac-7554-4142-8c71-aedb0140ce03/Untitled.png)
+![image](https://user-images.githubusercontent.com/51905839/154099796-ff581771-c51e-4131-bd4f-83b86fb3f71a.png)
 
 I must say though, the code does not look very nice. We’ve got a mix where some `<td>`’s are inside components and some aren’t. It just doesn’t look consistent, and moreover, the components that contain table cells can only be used inside table rows – not very reusable at all.
 
@@ -599,8 +599,7 @@ Implement the list of stories. For more practice, implement the header too.
 (screenshot from [https://news.ycombinator.com/news](https://news.ycombinator.com/news))
 
 **6. Pinterest**
-
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/686eda47-df30-45a7-a9d2-86fae53f0180/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/686eda47-df30-45a7-a9d2-86fae53f0180/Untitled.png)
+![image](https://user-images.githubusercontent.com/51905839/154099886-2c239b72-0da2-402b-9f22-76f1d2b2c331.png)
 
 **7. InternetRadio genre cloud**
 
