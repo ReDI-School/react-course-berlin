@@ -58,6 +58,7 @@ Updating Process:
 ## 5. Project
 - Final Project: Restaurant Finder - Corona App
 
-## 6. Further Material
+## 6. Additional Resources
+- [Additional Resources for your React Journey](https://github.com/ReDI-School/react-course-berlin/blob/main/resources.md)
 - Git
 - Preject Setup
