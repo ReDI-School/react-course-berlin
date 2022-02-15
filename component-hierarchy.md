@@ -1,3 +1,8 @@
+# Slides and Exercises 
+- 🖥 [Slides](https://docs.google.com/presentation/d/1DvmaVRvEOMjpUeyK0T4ppLAMAfPjek8lmdE8C6j1Hqc/edit#slide=id.g9d90a069b6_0_349)
+- 📦  [More ToDo app exercises](https://codesandbox.io/s/redi-week-05-exercises-forked-lb6bd?file=/src/ToDoApp.js)
+
+
 # Example: Tweet Component
 
 To learn to “think in components” you’ll need to build a few, and we’re going to start with a nice simple one. We’ll follow a 4-step process:
