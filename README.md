@@ -1,17 +1,14 @@
 # React Curriculum 
 
 This is the curriculum of ReDI's React course in Berlin. 
-In this curriculum you'll find all exercises, links, resources for the React course. 
-It helps teachers and students to have an overview and to find the right material.
-
-
-Updating Process:
-- teachers create PRs to the repo to update existing material
+All of the slides, homework, recordings, and more from each class - in one place!
+You can also find more resources to help you on your React learning journey in RESOURCES.md.
 
 
 # Curriculum
 
 ## 1. Javascript Recap
+- [Welome and JS Recap](https://github.com/ReDI-School/react-course-berlin/blob/main/welcome-js-recap.md)
 - [const vs. let](https://github.com/ReDI-School/react-course-berlin/blob/main/const-vs-let.md)
 - [arrow functions](https://github.com/ReDI-School/react-course-berlin/blob/main/arrow-functions.md)
 - [modules, exports and imports](https://github.com/ReDI-School/react-course-berlin/blob/main/modules-exports-and-imports.md)
@@ -27,19 +24,20 @@ Updating Process:
 - Component types
 - Lifecycle methods
 - Stateful components (useState vs. this.setState)
-- Conditional rendering
+- [Conditional rendering](https://github.com/ReDI-School/react-course-berlin/blob/main/conditional-rendering.md)
 - Rendering lists
-- Event handling
+- [Event handling](https://github.com/ReDI-School/react-course-berlin/blob/main/event-handling.md)
 - VsCode
 - Project Complete: Portfolio Item
 
 ## 3. Reusability and Hierarchy
 - Chapter Intro: Reusability & hierarchy
-- Components, reusability and props
+- [Components, reusability and props]()
 - [Component hierarchy](https://github.com/ReDI-School/react-course-berlin/blob/main/component-hierarchy.md)
 - [Passing props](https://github.com/ReDI-School/react-course-berlin/blob/main/passing-props.md)
 - [Children](https://github.com/ReDI-School/react-course-berlin/blob/main/children.md)
 - [Styling (modules and inline)](https://github.com/ReDI-School/react-course-berlin/blob/main/styling.md)
+- [Recap & Styled components](https://github.com/ReDI-School/react-course-berlin/blob/main/styled-components.md)
 - Project Complete: Portfolio page with many portfolio items
 
 ## 4. Further React Concepts
@@ -53,7 +51,7 @@ Updating Process:
 - Debugging
 - Improving performance
 - [Redux](https://github.com/ReDI-School/react-course-berlin/blob/main/redux.md)
-- [Project Complete: Portfolio Website]()
+- Project Complete: Portfolio Website
 
 ## 5. Project
 - Final Project: Restaurant Finder - Corona App
@@ -62,3 +60,7 @@ Updating Process:
 - [Additional Resources for your React Journey](https://github.com/ReDI-School/react-course-berlin/blob/main/resources.md)
 - Git
 - Preject Setup
+
+## To be sorted
+- 📦 [Live-coding solution](https://codesandbox.io/s/cool-clicking-game-exercise-forked-fj1g3)
+- ✏️ [Tiago's Director's Cut version of the Clicking Game](https://codesandbox.io/s/cool-clicking-game-exercise-directors-cut-rifp0)
