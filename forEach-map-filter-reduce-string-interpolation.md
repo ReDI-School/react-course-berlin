@@ -1,5 +1,11 @@
 Credit: [https://javascript.info/](https://javascript.info/), [https://www.freecodecamp.org/](https://www.freecodecamp.org/)
 
+
+# Exercise
+- 📦 [forEach, map, reduce, filter exercises](https://codesandbox.io/s/js-for-react-foreach-map-reduce-filter-3pmzx)
+- 
+
+
 # Concepts
 
 ## [Iterate: forEach](https://javascript.info/array-methods#iterate-foreach)
