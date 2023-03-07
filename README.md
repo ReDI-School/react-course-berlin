@@ -35,21 +35,13 @@ You can also find more resources to help you on your React learning journey in R
 - [useEffect() and data fetching](https://github.com/ReDI-School/react-course-berlin/blob/main/D02-useffect-and-data-fetching.md)
 - [Routing](https://github.com/ReDI-School/react-course-berlin/blob/main/D01-routing.md)
 - [Context and Forms](https://github.com/ReDI-School/react-course-berlin/blob/main/D03-context-and-forms.md)
-- Advanced state management (useReducer - Redux)
-- Review Routing, Context API, useEffect, Forms
-- Debugging
-- Improving performance
-- [Redux](https://github.com/ReDI-School/react-course-berlin/blob/main/D09-redux.md)
-- Project Complete: Portfolio Website
 
-## 5. Project
+## E. Project
+- [Git and Github](https://github.com/ReDI-School/react-course-berlin/blob/main/E01-git-github.md)
+- [VS Code and create-react-app](https://github.com/ReDI-School/react-course-berlin/blob/main/E02-vscode-cra.md)
 - Final Project: Restaurant Finder - Corona App
 
-## 6. Additional Resources
+# Additional Resources
 - [Additional Resources for your React Journey](https://github.com/ReDI-School/react-course-berlin/blob/main/resources.md)
 - Git
 - Preject Setup
-
-## To be sorted
-- 📦 [Live-coding solution](https://codesandbox.io/s/cool-clicking-game-exercise-forked-fj1g3)
-- ✏️ [Tiago's Director's Cut version of the Clicking Game](https://codesandbox.io/s/cool-clicking-game-exercise-directors-cut-rifp0)
