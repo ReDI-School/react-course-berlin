@@ -8,11 +8,11 @@ US/docs/Web/JavaScript/Reference/Statements/const](https://developer.mozilla.org
 
 `let` and `const` basically replace `var`. You use `let` instead of `var` and `const` instead of `var` if you plan on never re-assigning this "variable" effectively turning it into a constant therefore).
 
-# Resources
+### Resources
 
 - [Javascript.info: Variables](https://javascript.info/variables)
 
-# Exercises
+### Exercises
 
 - Working with variables: [https://javascript.info/task/hello-variables](https://javascript.info/task/hello-variables)
 - Giving the right name:: [https://javascript.info/task/declare-variables](https://javascript.info/task/declare-variables)

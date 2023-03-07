@@ -7,7 +7,7 @@ You can also find more resources to help you on your React learning journey in R
 
 # Curriculum
 
-## 1. Javascript Recap
+## A. Javascript Recap
 - [Welome and JS Recap](https://github.com/ReDI-School/react-course-berlin/blob/main/A00-welcome-js-recap.md)
 - [const vs. let](https://github.com/ReDI-School/react-course-berlin/blob/main/A01-const-vs-let.md)
 - [arrow functions](https://github.com/ReDI-School/react-course-berlin/blob/main/A01-arrow-functions.md)
@@ -15,37 +15,26 @@ You can also find more resources to help you on your React learning journey in R
 - [spread, rest and destructuring](https://github.com/ReDI-School/react-course-berlin/blob/main/A04-spread-rest-operator.md)
 - [forEach, map, filter, reduce and string interpolation](https://github.com/ReDI-School/react-course-berlin/blob/main/A05-forEach-map-filter-reduce-string-interpolation.md)
 - Github and Codesandbox
+- [Workshop: JS to know for React](https://github.com/react-course-berlin/blob/main/WS0-js-to-know-for-react.md)
 
 
-## 2. Base Syntax and Features
-- [setup computer and environment](https://github.com/ReDI-School/react-course-berlin/blob/main/B01-setup-computer-environment.md)
-- [Hello World](https://github.com/ReDI-School/react-course-berlin/blob/main/B02-hello-world.md)
-- [JSX](https://github.com/ReDI-School/react-course-berlin/blob/main/B03-jsx.md)
-- Component types
-- Lifecycle methods
-- Stateful components (useState vs. this.setState)
-- [Conditional rendering](https://github.com/ReDI-School/react-course-berlin/blob/main/B07-conditional-rendering.md)
-- Rendering lists
+## B. Base Syntax and Features
+- [Intro to JSX](https://github.com/ReDI-School/react-course-berlin/blob/main/B03-intro-to-jsx.md)
+- [Conditional rendering, rendering lists and handling events](https://github.com/ReDI-School/react-course-berlin/blob/main/B07-conditional-rendering.md)
 - [Event handling](https://github.com/ReDI-School/react-course-berlin/blob/main/B09-event-handling.md)
-- VsCode
-- Project Complete: Portfolio Item
+- [Component hierarchy and Passing props](https://github.com/ReDI-School/react-course-berlin/blob/main/C03-passing-props.md)
+- [Children](https://github.com/ReDI-School/react-course-berlin/blob/main/C03-children.md)
 
-## 3. Reusability and Hierarchy
-- Chapter Intro: Reusability & hierarchy
+## C. Reusability and Hierarchy
 - [Components, reusability and props](https://github.com/ReDI-School/react-course-berlin/blob/main/C01-components-reusability-props.md)
 - [Component hierarchy](https://github.com/ReDI-School/react-course-berlin/blob/main/C02-component-hierarchy.md)
-- [Passing props](https://github.com/ReDI-School/react-course-berlin/blob/main/C03-passing-props.md)
-- [Children](https://github.com/ReDI-School/react-course-berlin/blob/main/C03-children.md)
 - [Styling (modules and inline)](https://github.com/ReDI-School/react-course-berlin/blob/main/C04-styling.md)
-- [Recap & Styled components](https://github.com/ReDI-School/react-course-berlin/blob/main/C04-styled-components.md)
-- Project Complete: Portfolio page with many portfolio items
+- [Workshop: React](https://github.com/ReDI-School/react-course-berlin/blob/main/WS1-react.md)
 
-## 4. Further React Concepts
-- Further React concepts
-- [Routing](https://github.com/ReDI-School/react-course-berlin/blob/main/D01-routing.md)
+## D. Further React Concepts
 - [useEffect() and data fetching](https://github.com/ReDI-School/react-course-berlin/blob/main/D02-useffect-and-data-fetching.md)
-- [Context API](https://github.com/ReDI-School/react-course-berlin/blob/main/D03-context-api.md)
-- [Forms](https://github.com/ReDI-School/react-course-berlin/blob/main/D04-forms.md)
+- [Routing](https://github.com/ReDI-School/react-course-berlin/blob/main/D01-routing.md)
+- [Context and Forms](https://github.com/ReDI-School/react-course-berlin/blob/main/D03-context-and-forms.md)
 - Advanced state management (useReducer - Redux)
 - Review Routing, Context API, useEffect, Forms
 - Debugging

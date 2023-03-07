@@ -1,4 +1,9 @@
-# Resources
+# useEffect and Data Fetching
+### Resources
+
+- 🖥 [Slides](https://docs.google.com/presentation/d/1PBB799s-rwTz_ctHlAVDl3uHYdiuPiLixQEIR_66tqY/edit#slide=id.gc38bd7d9bd_0_446)
+- 📦 [Exercise](https://codesandbox.io/s/react-useeffect-weatherapp-solved-hz2yz)
+- ✏️ [Exercise, but async](https://codesandbox.io/s/useeffect-fetch-users-solution-but-async-45vsgp)
 
 Long-form article: [https://codesandbox.io/s/useeffect-timing-jvgip?file=/src/index.js](https://codesandbox.io/s/useeffect-timing-jvgip?file=/src/index.js)
 
