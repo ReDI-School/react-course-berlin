@@ -5,6 +5,7 @@ Credit: [javascript.info](http://javascript.info), [freecodecamp.org](http://fre
 - 📦 [Object destructuring exercise](https://codesandbox.io/s/object-destructuring-xlj5l?file=/src/App.js)
 - 📦 [Array destructuring exercise](https://codesandbox.io/s/array-destructuring-335bk?file=/src/App.js)
 - 📦 [Destructuring and spread exercises](https://codesandbox.io/s/js-for-react-destructuring-and-spread-d1of5)
+- 📦 [Slides examples in sandbox](https://codesandbox.io/p/sandbox/priceless-sky-icjjit?file=%2FREADME.md)
 
 
 # Spread & Rest Operator
