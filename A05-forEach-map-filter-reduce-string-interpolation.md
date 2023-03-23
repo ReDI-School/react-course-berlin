@@ -4,6 +4,7 @@ Credit: [https://javascript.info/](https://javascript.info/), [https://www.freec
 
 - 🖥 [Slides](https://docs.google.com/presentation/d/1SxWqPxy146xlfwiC_T1eJwssSmgoSGaudFY9zK85VOs)
 - 📦 [forEach, map, reduce, filter exercises](https://codesandbox.io/s/js-for-react-foreach-map-reduce-filter-3pmzx)
+- 📦 [Slides examples in sandbox](https://codesandbox.io/p/sandbox/priceless-sky-icjjit?file=%2FREADME.md)
 
 # Concepts
 
