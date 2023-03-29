@@ -1,10 +1,10 @@
 Credit: [https://javascript.info/](https://javascript.info/), [https://www.freecodecamp.org/](https://www.freecodecamp.org/)
 
+# Slides and Exercise
 
-# Exercise
+- 🖥 [Slides](https://docs.google.com/presentation/d/1SxWqPxy146xlfwiC_T1eJwssSmgoSGaudFY9zK85VOs)
 - 📦 [forEach, map, reduce, filter exercises](https://codesandbox.io/s/js-for-react-foreach-map-reduce-filter-3pmzx)
-- 
-
+- 📦 [Slides examples in sandbox](https://codesandbox.io/p/sandbox/priceless-sky-icjjit?file=%2FREADME.md)
 
 # Concepts
 
@@ -14,24 +14,34 @@ The [arr.forEach](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Refer
 
 The syntax:
 
-```jsx
-arr.forEach(function(item, index, array) {
-	// ... do something with item
-});
+```js
+forEach(function (element, index, array) { /* … */ }, thisArg)
 ```
 
-For instance, this shows each element of the array:
+where,
 
-```jsx
-// for each element call alert
-["Bilbo", "Gandalf", "Nazgul"].forEach(alert);
+*element*
+The current element being processed in the array.
+
+*index*
+The index of the current element being processed in the array.
+
+*array*
+The array forEach() was called upon.
+
+
+**examples**
+
+```js
+// This shows each element of the array
+["Bilbo", "Gandalf", "Nazgul"].forEach(element => console.log(element));
+
 ```
 
-And this code is more elaborate about their positions in the target array:
-
-```jsx
+```js
+// And this code is more elaborate about their positions in the target array
 ["Bilbo", "Gandalf", "Nazgul"].forEach((item, index, array) => {
-	alert(`${item} is at index ${index} in ${array}`);
+	console.log(`${item} is at index ${index} in ${array}`);
 });
 ```
 
@@ -39,15 +49,15 @@ The result of the function (if it returns any) is thrown away and ignored.
 
 ## [Filter](https://javascript.info/array-methods#filter)
 
-The `[find](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/find)` method looks for a single (first) element that makes the function return `true`.
-
 If there may be many, we can use [arr.filter(fn)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter).
 
 The syntax is similar to `find`, but `filter` returns an array of all matching elements:
 
 ```jsx
-let results = arr.filter(function(item, index, array) {
-		// if true item is pushed to results and the iteration continue
+filter(function (element, index, array) { /* … */ }, thisArg)
+
+let results = arr.filter(function(element, index, array) {
+		// if true element is pushed to results and the iteration continue
 	// returns empty array if nothing found
 });
 ```
@@ -64,7 +74,7 @@ let users = [
 // returns array of the first two users
 let someUsers = users.filter(item => item.id < 3);
 
-alert(someUsers.length); // 2
+console.log(someUsers.length); // 2
 ```
 
 ## [Transform an array: `map`](https://javascript.info/array-methods#map)
@@ -76,16 +86,31 @@ It calls the function for each element of the array and returns the array of res
 The syntax is:
 
 ```jsx
-let result = arr.map(function(item, index, array) {
-	// returns the new value instead of item
-});
+map(function (element, index, array) { /* … */ }, thisArg)
 ```
 
 For instance, here we transform each element into its length:
 
 ```jsx
 let lengths = ["Bilbo", "Gandalf", "Nazgul"].map(item => item.length);
-alert(lengths); // 5,7,6
+console.log(lengths); // 5,7,6
+```
+
+## [Reduction of an array: `reduce`](https://javascript.info/array-methods#reduce)
+
+The [arr.reduce](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce) method executes a user-supplied "reducer" callback function on each element of the array, in order, passing in the return value from the calculation on the preceding element. The final result of running the reducer across all elements of the array is a single value..
+
+The syntax is:
+
+```jsx
+reduce((accumulator, currentValue, currentIndex, array) => { /* … */ }, initialValue)
+```
+
+Example to calculate sum of all elements of an array
+
+```jsx
+let sum = [1, 2, 3, 4].reduce((accumulator, currentValue) => accumulator + currentValue, 0);
+console.log(sum); // 10
 ```
 
 ## All methods together

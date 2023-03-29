@@ -1,8 +1,8 @@
-# Exercises and Resources
+# Children and Styling
+
+### Exercises and Resources
 - 🖥 [Slides](https://docs.google.com/presentation/d/1Z1Il2OWFKR3vto_Xuy0QccEVEB9kuVvTubV0eKPQq-o/edit)
 
-
-# Children
 We’ve seen how JSX supports nesting components, just like HTML. And we’ve seen that custom components can accept *props* as arguments, and use those props to render content or pass along to child components.
 
 There’s a special prop we haven’t talked about yet: it’s called `children`.

@@ -1,10 +1,11 @@
 Credit: [javascript.info](http://javascript.info), [freecodecamp.org](http://freecodecamp.org)
 
 # Exercise
-- 🖥  [Slides](https://docs.google.com/presentation/d/1nW1svdquV8yyv6oOL7eWV99z15BRheMroc1_mXK4s0o/edit#slide=id.gc38bd7d9bd_0_446)
+- 🖥  [Slides](https://docs.google.com/presentation/d/1SxWqPxy146xlfwiC_T1eJwssSmgoSGaudFY9zK85VOs)
 - 📦 [Object destructuring exercise](https://codesandbox.io/s/object-destructuring-xlj5l?file=/src/App.js)
 - 📦 [Array destructuring exercise](https://codesandbox.io/s/array-destructuring-335bk?file=/src/App.js)
 - 📦 [Destructuring and spread exercises](https://codesandbox.io/s/js-for-react-destructuring-and-spread-d1of5)
+- 📦 [Slides examples in sandbox](https://codesandbox.io/p/sandbox/priceless-sky-icjjit?file=%2FREADME.md)
 
 
 # Spread & Rest Operator

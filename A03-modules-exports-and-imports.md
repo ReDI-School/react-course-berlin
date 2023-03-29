@@ -26,11 +26,11 @@ When importing **named exports**, you can also import all named exports at once 
 
 `upToYou` is - well - up to you and simply bundles all exported variables/functions in one JavaScript object. For example, if you export `export const someData = ...` (`/path/to/file.js`) you can access `upToYou` like this: `upToYou.someData`.
 
-# Resources
+### Resources
 
 - [Javascript.info: Export and Import](https://javascript.info/import-export)
 
-# Exercises
+### Exercises
 
 - [Create a Module Script](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/es6/create-a-module-script)
 - [Use export to Share a Code Block](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/es6/use-export-to-share-a-code-block)
